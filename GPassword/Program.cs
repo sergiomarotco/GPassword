@@ -1,15 +1,18 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace GPassword
+﻿namespace GPassword
 {
-    static class Program
+    using System;
+    using System.Windows.Forms;
+
+    /// <summary>
+    /// Основная точка входа впрограмму.
+    /// </summary>
+    internal static class Program
     {
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
-        static void Main()
+        private static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
